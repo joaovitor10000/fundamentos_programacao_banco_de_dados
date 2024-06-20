@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Calculadora Simples</title>
+<title> CALCULADORA da proz</title>
 <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
 <div class="calculator">
     <div class="display">
         <input type="text" id="display" disabled>
-        <h2></h2>
+       <h2>Calculadora Proz</h2>
     </div>
     <div class="row">
         <button class="button gray" onclick="appendToDisplay('7')">7</button>
@@ -28,20 +28,25 @@
         <button class="button gray" onclick="appendToDisplay('1')">1</button>
         <button class="button gray" onclick="appendToDisplay('2')">2</button>
         <button class="button gray" onclick="appendToDisplay('3')">3</button>
-        <button class="button purple" onclick="appendToDisplay('*')">*</button>
+        <button class="button purple" onclick="appendToDisplay('*')">*</button>     
     </div>
     <div class="row">
-        <button class="button gray" onclick="appendToDisplay('0')">0</button>
         <button class="button gray" onclick="appendToDisplay('.')">.</button>
-        <button class="button purple" onclick="calculate()">=</button>
-        <button class="button purple" onclick="appendToDisplay('/')">/</button>
+        <button class="button gray" onclick="appendToDisplay('0')">0</button>
+        <button class="button gray" onclick="clearDisplay()">C</button>
+        <button class="button purple" onclick="appendToDisplay('/')">/</button> 
     </div>
     <div class="row">
-        <button class="button gray" onclick="clearDisplay()">C</button>
+        <button class="button gray" onclick="appendToDisplay('+/-')">+/-</button> 
+        <button class="button gray" onclick="appendToDisplay(',')">,</button> 
+        <button class="button gray" onclick="appendToDisplay('%')">%</button> 
+        <button class="button purple" onclick="calculate()">=</button>
     </div>
 </div>
 <script src="scrpt.js"></script>
 </body>
 </html>
+
+   
 
    
