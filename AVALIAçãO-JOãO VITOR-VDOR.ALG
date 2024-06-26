@@ -1,11 +1,11 @@
-Algoritmo "AvaliaÁ„o-Jo„o Vitor-Vetor"
-// Disciplina  : Fundamentos da programaÁ„o
+Algoritmo "Avalia√ß√£o-Jo√£o Vitor-Vetor"
+// Disciplina  : Fundamentos da programa√ß√£o
 // Professor   : Ivan Paulino
-// DescriÁ„o   : AvaliaÁ„o
-// Autor(a)    : Jo„o Vitor
+// Descri√ß√£o   : Avalia√ß√£o
+// Autor(a)    : Jo√£o Vitor
 // Data atual  : 25/06/2024
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
 
    name:     Vetor [1..20] de caractere
    telefone: Vetor [1..20] de caractere
@@ -13,14 +13,14 @@ Var
    opcao,totalcontato,i :     inteiro
 
 Inicio
-   // SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
+   // Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
 
    escreval ()
    escreval ("###|MENU|###")
    escreval ("1 - Adicionar O seu contato:")
    escreval ("2 - Exibir o contato:")
    escreval ("3 - Sair do app.")
-   escreval ("Escolha uma Dessas opÁ„o:")
+   escreval ("Escolha uma Dessas op√ß√£o:")
    escreval ()
 
    leia     (opcao)
@@ -45,9 +45,6 @@ Inicio
 
       fimse
 
-      leia    (opcao)
-      escolha (opcao)
-
       caso 2
 
          se totalcontato = 0 entao
@@ -56,7 +53,7 @@ Inicio
          senao
 
             escreval ("==contatos=")
-            i de  1 atÈ totalcontato faca
+            i de  1 at√© totalcontato faca
             escreval (i,"-name:,"name[i]",telefone:,"telefone[i]",email:,"email[i])
 
          fimpara
@@ -67,7 +64,7 @@ Inicio
       escreval ("saindo da agenda ...")
 
    outrocaso
-      escreval("OpÁ„o inv·lida! tente novamente")
+      escreval("Op√ß√£o inv√°lida! tente novamente")
    fimescolha
 
 ate opcao = 3
