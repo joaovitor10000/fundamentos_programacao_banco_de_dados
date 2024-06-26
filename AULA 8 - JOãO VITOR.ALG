@@ -1,21 +1,20 @@
-Algoritmo "aula 8 - João vitor"
-// Disciplina  : Fundamentos da programação
-// Professor   : Ivan Paulino
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : João Vitor
-// Data atual  : 26/06/2024
-Var
+ Algoritmo "aula 8 - JoÃ£o vitor"
+ // Disciplina  : Fundamentos da programaÃ§Ã£o
+ // Professor   : Ivan Paulino
+ // DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
+ // Autor(a)    : JoÃ£o Vitor
+ // Data atual  : 26/06/2024
+ Var
 
- nome     : caractere
- idade    : inteiro
- telefone : inteiro
+  nome     : caractere
+  idade    : inteiro
+  telefone : inteiro
  
- procedimento saudacao (nomeUsuario : caractere)
- inicio
+  procedimento saudacao (nomeUsuario : caractere)
+  inicio
  
- escreval ("Olá ",nomeUsuario,", Sua idade é",idade,", Seu telefone",telefone)
-
-  
+  escreval ("OlÃ¡ ",nomeUsuario,", Sua idade Ã©",idade,", Seu telefone",telefone)
+ 
   fimprocedimento
 
   Inicio
@@ -27,9 +26,9 @@ Var
   escreval ("Qual a sua idade?")
   leia(idade)
   limpatela
- saudacao (nome)
+  saudacao (nome)
  
-  escreval ("Qual o seu número de telefone?")
+  escreval ("Qual o seu nÃºmero de telefone?")
   leia(telefone)
   limpatela
   saudacao(nome)
@@ -38,4 +37,4 @@ Var
 
 
 
-Fimalgoritmo
+ Fimalgoritmo
