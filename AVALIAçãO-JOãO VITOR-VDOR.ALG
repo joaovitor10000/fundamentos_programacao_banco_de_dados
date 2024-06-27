@@ -45,8 +45,10 @@ Inicio
 
       fimse
 
+leia(opcao)
+escolha(opcao)
       caso 2
-         escolha (opca)
+       
          se totalcontato = 0 entao
             escreval ("Nenhum contato.")
 
