@@ -34,7 +34,7 @@ Inicio
          leia (name[totalcontato])
          escreva ("Escreva o seu telefone:")
          leia (telefone[totalcontato])
-         escreva ("Escreva o seu email)
+         escreva ("Escreva o seu email:")
          leia (email[totalcontato])
 
          escreval ("Catrasto concluido com sucesso!")
