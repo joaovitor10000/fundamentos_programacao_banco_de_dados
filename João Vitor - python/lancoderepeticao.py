@@ -6,13 +6,13 @@
     #x=x+1
 
 x=0
-animais =[]
+animal =[]
 
 while x < 5:
-    animal =input ('5 Animais que começe com a letra do seu nome? ')
-    animais.append(animal)
+    animais =input ('5 Animais que começe com a letra do seu nome? ')
+    animal.append(animais)
     x=x+1
 
-    print(animais)
+    print(animal)
 
 
